@@ -12,17 +12,17 @@ let ellipses = document.querySelectorAll('.ellipsis');
 
 trashIcons.forEach((item) => {
     item.addEventListener('click', () => {
-        background.style.display='block';
-        
+        background.style.display = 'block';
+
     })
 })
 
 ellipses.forEach((item) => {
     item.addEventListener('click', () => {
         window.location.href = '/html/post.html';
-    
+
     })
 })
 noBtn.addEventListener('click', () => {
-    background.style.display='none';
+    background.style.display = 'none';
 })
